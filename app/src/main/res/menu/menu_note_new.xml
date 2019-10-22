@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:enabled="true"
+        android:id="@+id/action_note_reminder"
+        android:orderInCategory="0"
+        android:title="Add a reminder"
+        app:actionLayout="@layout/switch_item"
+        android:checkable="true"
+        />
+<!--        app:showAsAction="always"-->
+<!--        android:textOn="yeah"-->
+<!--        android:textOff="nah"/>-->
+
+    <item
+        android:enabled="true"
+        android:title="Save"
+        android:id="@+id/action_note_save"
+        android:icon="@drawable/ic_save_black_24dp"
+        android:orderInCategory="2"
+        app:showAsAction="always" />
+
+    <item
+        android:enabled="true"
+        android:title="Delete"
+        android:id="@+id/action_note_delete"
+        android:icon="@drawable/ic_delete_black_24dp"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        />
+
+</menu>
