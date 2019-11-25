@@ -4,48 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#191919">
 
     <TextView
         android:id="@+id/aboutBody"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:fontFamily="@font/space_mono_regular"
-        android:text="Gayatri P"
-        android:textSize="27sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.42" />
-
-    <TextView
-        android:id="@+id/aboutHead"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/space_mono_italic"
-        android:text="Made By"
-        android:textSize="22sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.354" />
-
-    <TextView
-        android:id="@+id/aboutFooter"
-        android:layout_width="367dp"
-        android:layout_height="135dp"
-        android:fontFamily="@font/space_mono_regular"
-        android:text="L.K. Singhania Education Centre, Gotan"
+        android:fontFamily="@font/gold_under_mud"
+        android:text="I'm Batman"
         android:textAlignment="center"
-        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/aboutBody"
-        app:layout_constraintVertical_bias="0.07999998"
-        app:lineHeight="22sp" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="186dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.519"
+        app:srcCompat="@drawable/batman" />
+
+    <!--   <TextView
+           android:id="@+id/aboutFooter"
+           android:layout_width="367dp"
+           android:layout_height="135dp"
+           android:fontFamily="@font/space_mono_regular"
+           android:text="L.K. Singhania Education Centre, Gotan"
+           android:textAlignment="center"
+           android:textColor="#FFFFFF"
+           android:textSize="20sp"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/aboutBody"
+           app:layout_constraintVertical_bias="0.07999998"
+           app:lineHeight="22sp" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

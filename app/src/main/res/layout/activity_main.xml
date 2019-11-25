@@ -11,10 +11,12 @@
         android:id="@+id/mainListviewNotes"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="58dp"
+        android:background="#191919"
         android:fontFamily="@font/circular_std"
-        />
+        android:divider="#333333"
+        android:dividerHeight="3px"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="58dp" />
 
     <TextView
         android:id="@+id/empty_text"
@@ -23,7 +25,7 @@
         android:paddingTop="20sp"
         android:text="Click + icon to add notes"
         android:textAlignment="center"
-        android:textColor="#66000000"
+        android:textColor="#bbbbbb"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
